@@ -6,17 +6,16 @@ start
 :考试安排表;
 |教师|
 :出卷;
-fork
-:A,B试卷;
-fork again
+if(A,B试卷)
+|教师|
+
+else
 :打印审批表;
-end fork
-if (专业课程) then (yes)
 |系主任|
 :审批签字;
 :打印审批表;
 endif
-|教务处|
+|教师|
 :打印试卷;
 :试卷;
 |学生|
@@ -34,9 +33,22 @@ detach
 endif
 else
 |教师|
+:答卷;
 :装订存档;
 endif
-:装订存档;
 :期末流程结束;
 stop
 @enduml
+fork
+:A,B试卷;
+fork again
+:打印审批表;
+end fork
+if (专业课程) then
+|系主任|
+:审批签字;
+:打印审批表;
+endif
+|教务处|
+:打印试卷;
+:试卷;
