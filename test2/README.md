@@ -43,7 +43,7 @@ actor :图书管理员:
 
 ### 1.2. 用例图如下：
 
-![usecase](usecase.png)
+![usecase](useCaseImg/usecase.png)
 
 ## 2. 参与者说明：
 
@@ -65,29 +65,64 @@ actor :图书管理员:
 
 ##     3. 用例规约表
 
-###     3.1 “借出图书”用例
+###     3.1 “借书图书”用例
+**“”用例流程图源码如下：**
+````
 
-参见：表7.5
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
+
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
 
 ###     3.2 “购入图书”用例
+**“”用例流程图源码如下：**
+````
 
-参见：表7.5
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
 
-**“购入图书”用例流程图源码如下：**
-``` uc1_flow
-@startuml
-start
-:Hello world;
-:This is on defined on
-several **lines**;
-stop
-@enduml
-```
-
-**“购入图书”用例流程图源码如下：**
-
-![uc1_flow](usecase1_flow.jpg)
-
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
 ###     3.3 “***”用例
+**“”用例流程图源码如下：**
+````
 
-参见：表7.5
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
+
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
+###     3.4 “***”用例
+**“”用例流程图源码如下：**
+````
+
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
+
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
+###     3.5 “***”用例
+**“”用例流程图源码如下：**
+````
+
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
+
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
+###     3.6 “***”用例
+**“”用例流程图源码如下：**
+````
+
+````
+**“”用例流程图：**
+![lendCase](useCaseImg/lendCase.png)
+
+#### 用例规约
+![lendprinciple](principleImg/lendPrinciple.png)
