@@ -15,7 +15,6 @@ elseif (系统连续三次获取图书失败？) then (yes)
     else (no)
     stop
   endif
-  stop
 elseif (参与者存在有超时的书籍？) then (yes)
   :提示用户请先归还超时书
   籍并显示所有已经超时的书籍;
