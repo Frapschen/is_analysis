@@ -153,10 +153,10 @@ stop
 @enduml
 ````
 #### “借书”用例流程图
-![lendCase](useCaseImg/lendCase.png)
+![lendBookCase](useCaseImg/lendCase.png)
 
 #### “借书”用例规约
-![lendPrinciple](principleImg/lendBookPrinciple.png)
+![lendBookPrinciple](principleImg/lendBookPrinciple.png)
 ### 3.4 “还书”用例
 ####“”用例流程图源码如下
 ````
@@ -271,5 +271,28 @@ stop
 
 #### “系统升级”用例规约
 ![updateSystemPrinciple](principleImg/updateSystemPrinciple.png)
+### 3. “读者查询”用例
+####“”用例流程图源码如下
+````
+@startuml
+start
+:系统获取更新信息;
+:参与者选择更新;
+:系统进入更新，请求用户设置更新时间;
+:系统确认时间，后台准备
+等待更新;
+:到达指定时间;
+ if (更新成功？) then (yes)
+  :提示更新成功;
+else (no)
+  :提示更新失败;
+endif
+stop
+@enduml
+````
+#### “读者查询”用例流程图
+![readerSearch](useCaseImg/readerSearch.png)
 
+#### “读者查询”用例规约
+![readerSearchPrinciple](principleImg/readerSearchPrinciple.png)
 
