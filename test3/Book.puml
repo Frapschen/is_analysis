@@ -1,0 +1,10 @@
+@startuml
+object Book {
+  ISBA=" 978-7-111-60046-6"
+  Name="深度学习实战 "
+  Category="计算机技术"
+  Publisher=" 北京：机械工业出版社"
+  Published-Date="2020.06"
+  StorePlace="二楼"
+}
+@enduml

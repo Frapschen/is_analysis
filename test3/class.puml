@@ -1,0 +1,72 @@
+@startuml
+class Person {
+  String Name
+  String Sex
+  int Age
+  String Number
+  String address
+  String Email
+}
+class bookManager{
+  String bookManager_ID
+  Boolean bookManager_AddBook()
+  Boolean bookManager_DeleteBook()
+}
+class Library_Admin {
+  String Library_Admin_ID
+  Boolean Library_Admin_SearchBookInfo()
+  Boolean Library_Admin_LendBook()Boolean
+  Boolean Library_Admin_ReturnBook()
+  Boolean Library_Admin_SearchReader()
+}
+class systemManager {
+  String systemManager_ID
+  Boolean systemManager_UpdateSystem()
+}
+class Reader {
+  String Reader_ID
+  String State
+  String SelectState()
+  Book SearchBook()
+  Boolean LendBook()
+  Boolean ReturnBook()
+}
+class Book {
+  String ISBA
+  String Name
+  String Category
+  String Publisher
+  String Published-Date
+  String StorePlace
+}
+class LendRecord{
+ int Reader_ID
+ Date Lend_time
+}
+class ReturnRecord{
+ int Reader_ID
+  Date Rerurn_time
+}
+class OutTimeRecord{
+ int OutTimeTecord_id
+ int OutTimeDays
+}
+
+class fineDetial{
+ int fineDetial_id
+ Date Time
+ Data Tines
+}
+
+Person <|-- Library_Admin
+Person <|-- systemManager
+Person <|-- Reader
+Person <|-- bookManager
+
+Reader"1" *-- "many"LendRecord
+Reader"1" *-- "many"ReturnRecord
+LendRecord--> "1"OutTimeRecord
+Library_Admin"1" *-- "many"LendRecord:log
+Library_Admin"1" *-- "many"OutTimeRecord:log
+OutTimeRecord--> "1"fineDetial:use
+@enduml

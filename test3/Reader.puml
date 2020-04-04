@@ -1,0 +1,12 @@
+@startuml
+object Reader {
+  Reader_ID="000021"
+  Name="陈程"
+  Sex="男
+  Age=20
+  Number="13678654955"
+  address="四川省成都市龙泉驿"
+  Email="78@163.com"
+  State="No"
+}
+@enduml

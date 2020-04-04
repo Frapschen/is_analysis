@@ -1,0 +1,11 @@
+@startuml
+object SystemManager {
+  systemManager_ID="001"
+  Name="陈军"
+  Sex="男"
+  Age=30
+  Number="17699654688"
+  address="成都市青白江区"
+  Email="chenjun@163.com"
+}
+@enduml
