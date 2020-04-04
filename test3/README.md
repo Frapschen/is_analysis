@@ -5,7 +5,6 @@
 ## 1. 图书管理系统的类图
 
 ### 1.1 类图PlantUML源码如下：
-
 ``` class
 @startuml
 class Person {
@@ -82,9 +81,6 @@ OutTimeRecord--> "1"fineDetial:use
 ```
 
 ### 1.2. 类图如下：
-
-参见图8.17
-
 ![class](class.png)
 
 ### 1.3. 类图说明：
