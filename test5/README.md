@@ -65,7 +65,7 @@
 ## 借阅书籍界面设计
 ![image](lendbook.png)
 
-[界面HTML]()
+[界面HTML](https://raw.githubusercontent.com/Frapschen/is_analysis_pages/master/UI/index.html)
 
 - 用例图参见：借阅书籍用例
 - 类图参见：用户类、图书类
