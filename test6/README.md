@@ -23,7 +23,7 @@
 
 ## 2.系统总体结构
 
-![image](sysFramework.png)
+![image](imgs/sysFramework.png)
 
 [界面设计参见](https://frapschen.github.io/is_analysis_pages/UI2/index.html)
 
