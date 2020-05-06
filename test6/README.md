@@ -35,7 +35,7 @@
 
 ![image](imgs/class.png)
 
-## 5.数据库设计[首页](./README.md)
+## 5.数据库设计
 
 - ### [﻿数据库设计](https://github.com/Frapschen/is_analysis/blob/master/test6/Database.md)
 
