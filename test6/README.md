@@ -46,8 +46,9 @@
 - ### [“学生列表”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/studentlist.html)
 - ### [“学生选课”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/chooiseclass.html)
 - ### [“开课”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/startclass.html)
-- ### [“修改密码”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/changepassward)
-- ### [“修改用户信息”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
-- ### [“查看用户信息”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
+- sub
+- ### [“修改密码”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/changepassward.html)
+- ### [“修改用户信息”用例](usecaseprinciple/modify_userInfor.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
+- ### [“查看用户信息”用例](usecaseprinciple/inquiry_user.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
 - ### [“登出”用例](usecaseprinciple/Login_out.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/topbar.html)
 - ### [“登录”用例](usecaseprinciple/Login_in.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/login.html)
