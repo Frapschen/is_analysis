@@ -11,7 +11,7 @@
 |备选事件流| |
 
 ## 2. 业务流程（顺序图） [源码](../src/sequenceCourse_startcourse.puml)
-![sequence1](../sequenceCourse_startcourse.png) 
+![sequence1](../imgs/sequenceCourse_startcourse.png) 
 
 ## 3. 界面设计
 - 界面参照:https://frapschen.github.io/is_analysis_pages/UI2/startclass.html
