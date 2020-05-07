@@ -43,7 +43,7 @@
 课程列表
 - ### [“评定成绩”用例](usecaseprinciple/evaluate_grades.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/parcticesdetial.html)
 - ### [“学生选课”用例](usecaseprinciple/student_course_select.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/chooiseclass.html)
-- ### [“开课”用例](usecaseprinciple/start_cuorse.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/startclass.html)
+- ### [“开课”用例](usecaseprinciple/start_course.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/startclass.html)
 - ### [“查看成绩”用例](usecaseprinciple/inquiry.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/parcticesdetial.html)
 - ### [“学生列表”用例](usecaseprinciple/stu_list.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/studentlist.html)
 - ### [“修改密码”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/changepassward.html)
