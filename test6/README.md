@@ -46,7 +46,7 @@
 - ### [“开课”用例](usecaseprinciple/start_course.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/startclass.html)
 - ### [“查看成绩”用例](usecaseprinciple/inquiry.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/parcticesdetial.html)
 - ### [“学生列表”用例](usecaseprinciple/stu_list.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/studentlist.html)
-- ### [“修改密码”用例](usecaseprinciple/.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/changepassward.html)
+- ### [“修改密码”用例](usecaseprinciple/modify_userpasswd.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/changepassward.html)
 - ### [“修改用户信息”用例](usecaseprinciple/modify_userInfor.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
 - ### [“查看用户信息”用例](usecaseprinciple/inquiry_user.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/userinfo.html)
 - ### [“登出”用例](usecaseprinciple/Login_out.md),[界面](https://frapschen.github.io/is_analysis_pages/UI2/topbar.html)
