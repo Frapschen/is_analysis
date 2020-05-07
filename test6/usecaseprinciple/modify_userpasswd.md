@@ -22,7 +22,7 @@
     - 接口1：[setPassword](../interface/setPassword.md)
 
 ## 4. 算法描述 [源码](../src/Login_in.puml)
-![登录认证流程图](../Login_in.png)
+![登录认证流程图](../imgs/Login_in.png)
     
 ## 5. 参照表
 
