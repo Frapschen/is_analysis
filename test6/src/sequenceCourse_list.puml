@@ -1,0 +1,6 @@
+@startuml
+title 基于GitHub的实验管理平台--课程列表用例的顺序图
+actor users
+users -> course: 进入默认课程或选择一个课程
+course -> students
+@enduml
