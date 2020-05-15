@@ -3,6 +3,4 @@ title 基于GitHub的实验管理平台--学生列表用例的顺序图
 actor teachers
 teachers -> course:选择一个课程
 teachers -> students: 查看所有学生列表
-students -> tests:打开这个学生的实验列表
-tests -> grades:查看实验详情
 @enduml
